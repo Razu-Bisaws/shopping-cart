@@ -65,8 +65,8 @@ document.getElementById('remove2').addEventListener('click', function () {
 const checkout = document.getElementById("checkout");
 const welcomePage = document.getElementById('welcomepage');
 welcomePage.style.display = "none";
-checkout.addEventListener('click',function(){
-    const cart =  document.getElementById('shoppingCart');
+checkout.addEventListener('click', function () {
+    const cart = document.getElementById('shoppingCart');
     cart.style.display = "none";
     welcomePage.style.display = "block";
 });
